@@ -1,0 +1,19 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: hadestech
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: test-lambda-jest
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: test-convert-csv
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  api:
+    handler: handler.handler
+    events:
+      - httpApi: "*"

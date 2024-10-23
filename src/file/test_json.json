@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Brando",
+    "numero_cuenta": "123123123",
+    "saldo": "1200",
+    "comentario": "hola",
+    "numero_movimientos": "2"
+  },
+  {
+    "name": "Jose",
+    "numero_cuenta": "22123123",
+    "saldo": "2200",
+    "comentario": "olaaa",
+    "numero_movimientos": "3"
+  },
+  {
+    "name": "Esteban",
+    "numero_cuenta": "123123123",
+    "saldo": "4200",
+    "comentario": "olis",
+    "numero_movimientos": "1"
+  },
+  {
+    "name": "Rey",
+    "numero_cuenta": "11111111",
+    "saldo": "2200",
+    "comentario": "olo",
+    "numero_movimientos": "4"
+  },
+  {
+    "name": "Jose 2",
+    "numero_cuenta": "312312",
+    "saldo": "4300",
+    "comentario": "comentario",
+    "numero_movimientos": "15"
+  }
+]
